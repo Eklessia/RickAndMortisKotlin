@@ -1,0 +1,23 @@
+
+v
+Fapp/src/main/java/cl/malditosnakamas/rickandmorty/model/Character.java,1/9/196a136ef78f819b7792e1ffbe36801680061e87
+s
+Capp/src/main/java/cl/malditosnakamas/rickandmorty/model/Origin.java,c/2/c2c616c1fcfa3ee8305d5535ecba6a12896e92de
+@
+app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
+w
+Gapp/src/main/java/cl/malditosnakamas/rickandmorty/model/Characters.java,a/e/ae2272e605f2782ee6fde9cabf8d26dd0e402baf
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+€
+Papp/src/main/java/cl/malditosnakamas/rickandmorty/data/CharactersRepository.java,b/f/bfd41b14695f220e0772f81f68a12c1c1ecab94b
+„
+Tapp/src/main/java/cl/malditosnakamas/rickandmorty/data/FakeCharactersRepository.java,0/c/0c328e16d131262e547cc600fbdd038aa0ec804d
+†
+Vapp/src/main/java/cl/malditosnakamas/rickandmorty/data/RemoteCharactersRepository.java,5/d/5db67e6f831ee9c5539ce9c4ebb3ee08a43d53ed
+}
+Mapp/src/main/java/cl/malditosnakamas/rickandmorty/data/api/CharactersApi.java,3/2/320fff1b1e40b2e8659a6888141e912704c49dc9
+
+Oapp/src/main/java/cl/malditosnakamas/rickandmorty/data/api/RetrofitHandler.java,e/6/e6cf31603d9a09d00230fafeaf63407abb70b4cf
+s
+Capp/src/main/java/cl/malditosnakamas/rickandmorty/MainActivity.java,c/d/cd1561ac941b9f87b467a3355cf516cf42f26e29
