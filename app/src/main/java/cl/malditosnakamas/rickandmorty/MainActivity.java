@@ -1,13 +1,12 @@
 package cl.malditosnakamas.rickandmorty;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
+import com.google.firebase.crashlytics.FirebaseCrashlytics;
 
 import cl.malditosnakamas.rickandmorty.databinding.ActivityMainBinding;
-import cl.malditosnakamas.rickandmorty.menu.MenuFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,22 +15,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        FirebaseCrashlytics.getInstance().setUserId("12345");
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        setupClickListener();
-    }
-
-    private void setupClickListener() {
-        //Callbacks - Listener
-        binding.brnEntrar.setOnClickListener((View v) -> goToMenu());
-        binding.brnEntrar.setOnClickListener((View v) -> goToMenu());
-        binding.brnEntrar.setOnClickListener((View v) -> goToMenu());
-        binding.brnEntrar.setOnClickListener((View v) -> goToMenu());
-        binding.brnEntrar.setOnClickListener((View v) -> goToMenu());
-    }
-
-    private void goToMenu() {
-        Intent intent = new Intent(this, MenuFragment.class);
-        startActivity(intent);
     }
 }

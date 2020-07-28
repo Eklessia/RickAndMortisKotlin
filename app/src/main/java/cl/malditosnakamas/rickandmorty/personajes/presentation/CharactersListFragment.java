@@ -12,6 +12,8 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
+
 import org.jetbrains.annotations.NotNull;
 
 import cl.malditosnakamas.rickandmorty.databinding.FragmentCharacterListBinding;
@@ -31,6 +33,8 @@ public class CharactersListFragment extends Fragment implements OnItemClickListe
     private CharactersAdapter charactersAdapter;
 
     private DialogFragment dialog;
+
+
 
 
     /*@SuppressLint("CheckResult")

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="cl.malditosnakamas.rickandmorty.menu.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_charactersListFragment"
+            app:destination="@id/charactersListFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_configurationFragment"
+            app:destination="@id/configurationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/charactersListFragment"
+        android:name="cl.malditosnakamas.rickandmorty.personajes.presentation.CharactersListFragment"
+        android:label="fragment_character_list"
+        tools:layout="@layout/fragment_character_list" >
+        <action
+            android:id="@+id/action_charactersListFragment_to_characterDetailsFragment"
+            app:destination="@id/characterDetailsFragment" />
+        <action
+            android:id="@+id/action_charactersListFragment_to_configurationFragment"
+            app:destination="@id/configurationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="cl.malditosnakamas.rickandmorty.login.presentation.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registroUsuarioFragment"
+            app:destination="@id/registroUsuarioFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_charactersListFragment"
+            app:destination="@id/charactersListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registroUsuarioFragment"
+        android:name="cl.malditosnakamas.rickandmorty.registrousuario.presentation.RegistroUsuarioFragment"
+        android:label="fragment_registro_usuario"
+        tools:layout="@layout/fragment_registro_usuario" />
+    <fragment
+        android:id="@+id/characterDetailsFragment"
+        android:name="cl.malditosnakamas.rickandmorty.personajedetalle.presentation.CharacterDetailsFragment"
+        android:label="fragment_character_details"
+        tools:layout="@layout/fragment_character_details" >
+        <action
+            android:id="@+id/action_characterDetailsFragment_to_configurationFragment"
+            app:destination="@id/configurationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/configurationFragment"
+        android:name="cl.malditosnakamas.rickandmorty.configuracion.presentation.ConfigurationFragment"
+        android:label="fragment_configuration"
+        tools:layout="@layout/fragment_configuration" />
+
+
+</navigation>

@@ -26,7 +26,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <Button
         android:id="@+id/btnIrAListado"
         android:layout_width="wrap_content"
@@ -35,4 +34,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCompartirTexto" />
+
+
+    <Button
+        android:id="@+id/btn_ir_a_configuracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/ir_a_configuracin"
+        app:layout_constraintEnd_toEndOf="@+id/btnIrAListado"
+        app:layout_constraintStart_toStartOf="@+id/btnIrAListado"
+        app:layout_constraintTop_toBottomOf="@+id/btnIrAListado" />
 </androidx.constraintlayout.widget.ConstraintLayout>
