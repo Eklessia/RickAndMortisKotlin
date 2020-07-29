@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">RickAndMorty</string>
+    <string name="ver_valor_spinner">Ver Valor Spinner</string>
+    <string name="ir_a_google">Ir a Google</string>
+    <string name="ir_a_listado">Ir a Listado</string>
+    <string name="compartir_texto">Compartir Texto</string>
+
+    <string-array name="dias_de_la_semana">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="login_title">Login Rick and Morty</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="registro_usuario">Registro Usuario</string>
+    <string name="ingresa_nombre">Ingresa Nombre</string>
+    <string name="nombre">Nombre:</string>
+    <string name="ingresa_email">Ingresa Email</string>
+    <string name="edad">Edad:</string>
+    <string name="email">Email:</string>
+    <string name="ingresa_edad">Ingresa Edad</string>
+    <string name="clave">Clave</string>
+    <string name="ingresa_clave">Ingrese Clave</string>
+    <string name="registrar">Registrar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ir_a_configuracin">Ir A Configuración</string>
 </resources>
